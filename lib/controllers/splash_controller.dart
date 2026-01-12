@@ -39,7 +39,7 @@ class SplashController extends GetxController
 
   void _navigateNext() async {
     await Future.delayed(const Duration(seconds: 3));
-    Get.toNamed(AppRoute.productList);
+    Get.offAllNamed(AppRoute.productList);
   }
 
   @override
