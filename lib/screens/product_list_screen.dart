@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:nesa_machine_test/config/theme/app_colors.dart';
 import 'package:nesa_machine_test/widgets/Error_widget/error_view.dart';
-import 'package:nesa_machine_test/widgets/shimmer_container.dart';
 import '../controllers/cart_controller.dart';
 import '../controllers/product_list_controller.dart';
 import '../widgets/cart/cart_badge.dart';
